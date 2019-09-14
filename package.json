@@ -1,7 +1,7 @@
 {
   "name": "quicklaunch",
   "main": "./lib/quicklaunch",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Allows files to be run directly through the project tree. Currently ONLY works on Windows.",
   "keywords": [
     "Run",
