@@ -1,0 +1,29 @@
+{
+  "name": "quicklaunch",
+  "main": "./lib/quicklaunch",
+  "version": "0.1.2",
+  "description": "Allows files to be run directly through the project tree. Currently ONLY works on Windows.",
+  "keywords": [
+    "Run",
+    "Execute",
+    "Start",
+    "Launch",
+    "File",
+    "Files",
+    "Project",
+    "Quicklaunch",
+    "JackTheFoxOtter"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "quicklaunch:run",
+      "quicklaunch:run_active"
+    ]
+  },
+  "repository": "https://github.com/JackTheFoxOtter/atom-quicklaunch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,28 @@
+{
+    "context-menu": {
+        ".tree-view .file": [{
+            "label": "Run",
+            "command": "quicklaunch:run"
+        }],
+        "atom-text-editor": [{
+            "label": "Run",
+            "command": "quicklaunch:run_active"
+        }]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Quicklaunch",
+                    "submenu": [
+                        {
+                            "label": "Run active",
+                            "command": "quicklaunch:run_active"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
